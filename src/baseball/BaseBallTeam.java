@@ -13,7 +13,6 @@ public class BaseBallTeam {
 
     // 引数ありコンストラクタ
     public BaseBallTeam(String name, int win, int lose, int draw) {
-        System.out.println("初期化時に引数ありコンストラクタが呼ばれました");
         this.name = name;
         this.win = win;
         this.lose = lose;
